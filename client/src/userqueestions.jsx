@@ -14,7 +14,7 @@ const userqueestions = ({ question, val }) => {
       } else {
         clearInterval(interval);
       }
-    }, 20);
+    }, 35);
   };
   useEffect(() => {
     typeText(question);
