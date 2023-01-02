@@ -1,0 +1,6 @@
+.MuiFormLabel-root.Mui-focused {
+  color: #6750ac !important;
+}
+.MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #6750ac !important;
+}

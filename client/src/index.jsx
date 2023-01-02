@@ -1,0 +1,13 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import AppThemeProvider from "./ThemeContainer/AppThemeProvider";
+import { CssBaseline } from "@mui/material";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <AppThemeProvider>
+    <CssBaseline />
+    <App />
+  </AppThemeProvider>
+);
