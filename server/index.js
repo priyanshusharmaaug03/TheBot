@@ -36,6 +36,6 @@ app.post("/", async (req, res) => {
   }
 });
 
-app.listen(8000, () => {
+app.listen(process.env.PORT, () => {
   console.log("working http://localhost:8000 ");
 });
